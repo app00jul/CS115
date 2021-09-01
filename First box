@@ -1,17 +1,17 @@
-# 
-# Hashtag lines are optional comments
-#
+#state 0: go to the bottom right corner
+0 ***x -> S 0
+0 *x*S -> E 1
+1 *x** -> E 1
 
-# state 0 with nothing N: go one step N
-0 x*** -> N 0   
+#state 1: go north
+1 xE** -> N 2
+2 x*** -> N 2
 
-# state 0 with something to the N: go W + into st 1 
-# ** This will crash if picobot has a wall to the W! **
-0 N*** -> W 1 
+#state 2: go east
+2 N*** -> W 3
 
+#state 3: go south
+3 ***x -> S 3
 
-# state 1 with nothing to the S: go one step S
-1 ***x -> S 1   
-
-# state 1 with something to the S: stay put + into state 0
-1 ***S -> X 0   
+#state 4: finish!
+3 ***S -> W 4
