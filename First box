@@ -15,3 +15,5 @@
 
 #state 4: finish!
 3 ***S -> W 4
+4 xx*S -> N 5
+5 xx*x -> N 2
