@@ -1,0 +1,73 @@
+Proto:
+0 x*** -> N 0
+0 Nx** -> E 1
+1 *x** -> E 1
+1 *E*x -> S 2
+2 ***x -> S 2
+2 **xS -> W 3
+3 **x* -> W 3
+3 x*W* -> N 0
+0 NEx* -> W 4
+4 **x* -> W 4
+4 N*Wx -> S 2
+1 xE*S -> N 0
+4 NxWS -> E 1
+3 N*Wx -> S 2
+2 *xWS -> E 1
+1 NExS -> W 3
+4 x*WS -> N 5
+5 xEWx -> N 0
+0 NEWx -> S 2
+4 xxWx -> N 0
+2 xEWS -> N 7
+7 xxWx -> E 8
+8 Nx*S -> E 9
+9 NE*x -> S 10
+10 *EWx -> S 10
+10 *Ex* -> W 11
+11 N*x* -> W 11
+11 x*WS -> N 12
+12 xEW* -> N 12
+12 NEx* -> W 13
+13 xxWS -> N 11
+11 xEWx -> N 11
+11 NxWx -> E 8
+9 NxxS -> E 8
+8 NExx -> S 9
+9 xxWS -> E 8
+9 xExS -> N 12
+7 xEWx -> N 12
+12 xxWx -> E 11
+12 xExx -> N 13
+13 NEWx -> S 10
+13 NxxS -> W 12
+12 NxWx -> S 8
+8 xExS -> W 12 
+12 NxxS -> W 12
+12 xxWS -> N 0
+11 xxWx -> E 14
+14 NxxS -> E 14
+14 NExx -> S 15
+15 ***x -> S 15
+15 **xS -> W 12
+7 NxWx -> E 11
+12 NEWx -> S 14
+14 xEWx -> S 14
+14 xxWS -> E 16
+16 N**x -> S 12
+12 Nxxx -> S 15
+5 NEWx -> S 14
+3 NxWS -> E 17
+17 xEWx -> S 18
+17 xExS -> N 19
+19 xEWx -> N 19
+19 NExx -> W 20
+20 NxxS -> W 20
+20 **Wx -> S 21
+16 NxxS -> E 12
+
+
+
+
+
+
