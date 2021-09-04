@@ -262,6 +262,77 @@ Trial 2:
 #South free, West block
 23 **Wx -> S 23
 
+Final 
+0 xE** -> N 0
+0 Nx** -> E 1
+0 NEx* -> W 2
+0 NEWx -> S 3
+
+1 *x*S -> E 1
+2 N*x* -> W 2
+3 **Wx -> S 3
+
+5 N*** -> E 1
+6 N*** -> W 2
+7 N*** -> S 3
+
+10 *E** -> N 0
+11 *E** -> W 2
+
+15 **W* -> N 0
+16 **W* -> E 1
+17 **W* -> S 3
+
+20 ***S -> N 0
+21 ***S -> E 1
+22 ***S -> W 2
+
+90 xEWS -> N 0
+91 NxWS -> E 1
+92 NExS -> W 2
+94 NEWx -> S 3
+
+95 xxxx -> N 0
+96 xxxx -> E 1
+98 xxxx -> W 2
+97 xxxx -> S 3
+
+94 xExS -> W 2
+2 NxWx -> S 12
+3 xxxx -> W 98
+98 NxxS -> W 6
+2 xxWS -> N 20
+20 NExx -> W 2
+3 xExS -> W 2
+20 xEWx -> N 0
+
+1 NExS -> W 2
+2 xxWx -> N 0
+1 NExx -> S 3
+3 xxWS -> E 1
+
+2 xxxS -> N 0
+1 xExS -> N 0
+0 xxxx -> E 1
+3 xEWS -> N 0
+0 xxWx -> E 1
+3 xExx -> W 2
+
+12 xEWS -> N 0
+1 Nxxx -> S 3
+3 xxxS -> W 2
+2 NxWS -> E 1
+12 xEWx -> S 3
+12 xExS -> W 2
+3 NxxS -> W 2
+1 xExx -> S 3
+20 NEWx -> S 3
+2 xxxx -> N 0
+1 xxxx -> S 3
+12 xExx -> W 2
+20 xExx -> N 0
+
+
 
 
 
