@@ -1,0 +1,33 @@
+0 x*** -> N 0
+
+0 NxWx -> S 1
+
+1 xxxx -> S 1
+
+1 xxWS -> N 2
+
+2 xxxx -> W 3
+
+3 x*** -> N 0
+
+3 NxWS -> E 4
+
+4 xxxx -> E 4
+
+4 NExS -> W 5
+
+5 x*** -> N 0
+
+0 NExx -> S 6
+
+6 xxxx -> S 6
+
+6 xExS -> W 5
+
+0 NEWx -> S 7
+
+7 xxxx -> S 7
+
+7 xEWS -> N 2
+
+
