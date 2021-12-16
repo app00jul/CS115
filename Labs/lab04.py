@@ -29,6 +29,11 @@ print(removeAll(6,lst))
 
 
 def deepReverse(L):
-    return [L[-1]] + deepReverse(L[:-1])
+    if len(L) == 0:
+        return []
+    else:
+        ans = L[-1]
+        return [ans] + deepReverse(L[:-1])
 
 print(deepReverse([1,3,4,5]))
+
