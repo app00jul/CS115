@@ -47,15 +47,15 @@ count_true()
 # Input is accepted line-by-line
 def getInput():
     lst = []
-    txt = input("Please enter: ")
-    lst.append(txt)
-    print(lst)
 
-    while(len(txt) != 0):
+    inpt = True
+    while inpt:
         txt = input("Please enter: ")
-        lst.append(txt)
-        print(lst)
-
+        if len(txt) == 0:
+            inpt = False
+        else:
+            lst.append(txt)
+            print(lst)
     return lst
 
 

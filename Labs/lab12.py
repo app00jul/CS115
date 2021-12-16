@@ -19,5 +19,5 @@ def shuffedNumbers(n):
             i = i + 1
     return(out)
 
-print(shuffedNumbers(10000000))
+print(shuffedNumbers(100))
 
